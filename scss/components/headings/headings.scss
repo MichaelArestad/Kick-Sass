@@ -1,0 +1,40 @@
+// ==========================================================================
+// Headings
+// ==========================================================================
+
+.heading-1 {
+	font-size: em( 67px ); // 54px works nicely, as well
+	font-weight: 700;
+	line-height: 1;
+}
+
+.heading-2 {
+	font-size: em( 36px );
+	font-weight: 600;
+	line-height: 1;
+}
+
+.heading-3 {
+	font-size: em( 30px );
+	font-weight: 600;
+	line-height: 1;
+}
+
+.heading-4 {
+	font-size: em( 24px );
+	font-weight: 600;
+	line-height: 1;
+}
+
+.heading-5 {
+	font-size: em( 20px );
+	font-weight: 600;
+	line-height: 1;
+}
+
+.heading-6 {
+	font-size: em( 16px );
+	font-weight: 600;
+	line-height: 1;
+	text-transform: uppercase;
+}

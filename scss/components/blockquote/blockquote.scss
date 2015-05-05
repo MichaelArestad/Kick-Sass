@@ -1,0 +1,11 @@
+// ==========================================================================
+// Blockquote
+// ==========================================================================
+
+.blockquote {
+	margin: 0;
+	padding-left: 1em;
+	position: relative;
+	border-left: 4px solid #eee; // TODO replace with color variable
+	font-style: italic;
+}

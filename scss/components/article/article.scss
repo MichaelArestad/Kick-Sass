@@ -1,0 +1,27 @@
+// ==========================================================================
+// Article
+// ==========================================================================
+
+.article {
+	> p {
+		margin: 1.5em 0;
+	}
+
+	a {
+		// Good example of slim underline. We'll want to use this on body copy/quotes
+		color: inherit;
+		@include slim-underline;
+	}
+
+	b,
+	strong {
+		font-weight: $bold;
+	}
+
+	code {
+		background: #f2f2f2; // TODO replace with color variable
+		font-size: em( 16px );
+		padding: em( 4px, 16px ) em( 8px, 16px );
+		border-radius: 3px;
+	}
+}
