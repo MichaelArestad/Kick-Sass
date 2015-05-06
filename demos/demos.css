@@ -3,3 +3,12 @@ body {
 	margin: 3em auto;
 	padding: 0 1em;
 }
+
+.demo-title {
+	color: #999;
+	margin-bottom: 1.5em;
+}
+
+.demo-break {
+	margin-top: 1.5em;
+}
