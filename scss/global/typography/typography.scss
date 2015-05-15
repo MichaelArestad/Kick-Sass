@@ -6,7 +6,7 @@
 	"variables";
 
 body {
-	font: $normal #{ map-get( $root-font, font-size ) }/1.5 $sans-serif;
+	font: $normal #{ map-get( $root-font, font-size ) }/#{ map-get( $root-font, line-height ) } $sans-serif;
 
 	@media ( max-width: 800px ) {
 		font-size: 16px;
@@ -14,4 +14,9 @@ body {
 	@media ( max-width: 500px ) {
 		font-size: 14px;
 	}
+}
+
+input,
+button {
+	line-height: map-get( $root-font, line-height );
 }

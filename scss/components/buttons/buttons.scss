@@ -3,5 +3,47 @@
 // ==========================================================================
 
 .button {
-	// Some button markup probably
+	-webkit-appearance: none;
+	appearance: none;
+	display: inline-block;
+	background: transparent;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	padding: 5px 13px;
+	font-size: 14px;
+	text-decoration: none;
+	vertical-align: baseline;
+	cursor: pointer;
+
+	&:hover {}
+	&:focus {
+		outline: 0;
+		border-color: $blue;
+		box-shadow: 0 0 0 3px $blue;
+	}
+	&:disabled {}
 }
+
+.button-isReset {
+	-webkit-appearance: none;
+	appearance: none;
+	display: inline;
+	background: transparent;
+	border: 0;
+	padding: 0;
+	font-size: inherit;
+	text-decoration: none;
+	cursor: inherit;
+}
+
+.button-isPrimary {
+	background: $blue;
+	border-color: darken( $blue, 10% );
+	color: #fff;
+
+		&:hover {}
+		&:focus {}
+		&:disabled {}
+}
+
+.button-isLink {}

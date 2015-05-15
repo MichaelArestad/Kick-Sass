@@ -9,6 +9,12 @@ body {
 	margin-bottom: 1.5em;
 }
 
+.demo-class {
+	margin-top: 3em;
+	margin-bottom: 1.5em;
+	text-transform: initial;
+}
+
 .demo-break {
 	margin-top: 1.5em;
 }

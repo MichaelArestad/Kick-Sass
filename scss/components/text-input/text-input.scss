@@ -1,0 +1,22 @@
+// ==========================================================================
+// Text input
+// ==========================================================================
+
+.textInput { // input-text????
+	margin: 0;
+	padding: 7px 14px;
+	width: 100%;
+	font-size: 16px; // Mobile Safari zooms on anything smaller (and maybe larger?)
+	line-height: 1.5;
+	border: 1px solid #eee;
+	background-color: #fff;
+
+	&::placeholder {}
+	&:hover {}
+	&:focus {
+		outline: 0;
+		border-color: $blue;
+		box-shadow: 0 0 0 3px $blue;
+	}
+	&:disabled {}
+}

@@ -4,7 +4,6 @@
 
 @import
 	"_utilities/colors",
-	"_utilities/reset",
 	"_utilities/mixins/mixins",
 	"_utilities/functions/functions";
 
@@ -19,7 +18,9 @@
 	"components/lists/lists",
 	"components/overflow-indicator/overflow-indicator",
 	"components/pre/pre",
-	"components/tables/tables";
+	"components/tables/tables",
+	"components/textarea/textarea",
+	"components/text-input/text-input";
 
 @import
 	"views/main";
